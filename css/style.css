@@ -1,76 +1,50 @@
-.logo {
-    padding: 10px;
-  }
-
-.head {
-    display: flex;
-    background-image: url('../Images/hero_image.png');
-    height: 999px;
-    width: 100%;
+.nav-justify {
+  justify-content: right;
+  padding: 10px;
 }
 
-.nav {
-    display: flex;
-    padding: 20px;
-  }
-
-.right {
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-  }
-
-.menu {
-    padding: 25px;
-    align-items: right;
-  }
-
-.ml-auto {
-    margin-left: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+.justify-center {
+  text-align: center;
 }
 
-.foot {
-  height: 400px;
-  width: 100%;
-  text-align: left;
+.tools-title-color {
+  color: #D2834F;
 }
 
-.skills {
+.padding-left {
+  padding-left: 20%;
+}
+
+.padding-right {
+  padding-right: 20%;
+}
+
+.padding-top {
+  padding-top: 15px;
+}
+
+.padding-bottom {
+  padding-bottom: 15px;
+}
+
+.tool-image-sizing {
+  height: 50%;
+  width: 50%;
+}
+
+.flex-style {
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 50px;
-  text-align: center;
 }
 
-.image_padding {
-  height: 700;
-  width: 700;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+.solid-line {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 5px solid #D2834F; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+} 
 
-.section_title {
-  padding-top: 50px;
-  padding-bottom: 25px;
-  text-align: center;
-}
-
-.sub_section_title {
-  padding-top: 50px;
-  padding-bottom: 25px;
-  text-align: left;
-}
-
-.river {
-  padding-left: 400px;
-  padding-right: 400px;
-}
-
-.line-1 {
-  height: 1px;
-  background: black;
+.solid-line-span { 
+   background:#fff; 
+   padding:0 10px; 
 }
