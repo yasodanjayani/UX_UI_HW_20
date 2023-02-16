@@ -1,0 +1,336 @@
+.logo {
+  padding: 10px;
+}
+
+.head {
+  display: flex;
+  background-image: url('../Images/hero_image.png');
+  background-size: cover;
+  height: 100%;
+  width: auto;
+}
+
+.images {
+width: 100%;
+height: 300%;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: 33% 33% 33%;
+grid-template-rows: 20% 20% 20% 20% 20%;
+gap: 10px;
+padding: 10px;
+}
+
+.grid-item {
+padding: 20px;
+}
+
+.item-1 {
+grid-row: 1;
+grid-column: 1;
+}
+
+.item-2 {
+grid-row: 1;
+grid-column: 2;
+}
+
+.item-3 {
+grid-row: 4;
+grid-column: 3;
+}
+
+.nav {
+display: flex;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+}
+
+.line-1 {
+font-family: Kaisei Decol;
+font-size: 45px;
+color: rgb(4, 4, 4);
+} 
+
+.line-2 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 24px;
+color: rgb(209, 113, 113);
+} 
+
+.line-3 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 45px;
+color: rgb(4, 4, 4);
+}
+
+.vl {
+border-left: 6px solid rgb(209, 113, 113);
+height: 250px;
+}
+
+.type1-grid-container {
+display: grid;
+grid-template-columns: 45% 10% 45%;
+grid-template-rows: 20% 20% 20% 20% 20%;
+gap: 10px;
+padding: 10px;
+}
+
+.travelwise-color {
+color: #91B5C2;
+}
+
+.nsa-color {
+color: #B3D043;
+}
+
+.inspectrum-color {
+color: #DEB895;
+}
+
+.pcau-color {
+color: #6A829D;
+}
+
+.type1-item-1 {
+grid-row: 1 / span 4;
+grid-column: 1 / span 2;
+}
+
+.type1-item-2 {
+grid-row: 2 / span 2 ;
+grid-column: 3;
+padding-left: 20px;
+}
+
+.type1-item-3 {
+grid-row: 5;
+grid-column: 3;
+padding-left: 20px;
+}
+
+.type1-title {
+font-family: Kaisei Decol;
+font-size: 67px;
+}
+
+.type1-subtitle {
+font-family: Montserrat;
+font-size: 24px;
+}
+
+.type1-content {
+font-family: Montserrat;
+font-size: 24px;
+color: #000000;
+text-align: left;
+}
+
+.type2-grid-container {
+display: grid;
+grid-template-columns: 45% 10% 45%;
+grid-template-rows: 20% 20% 20% 20% 20%;
+gap: 10px;
+padding: 10px;
+}
+
+.type2-item-1 {
+grid-row: 1 / span 4;
+grid-column: 2 / span 3;
+}
+
+.type2-item-2 {
+grid-row: 2 / span 2 ;
+grid-column: 1;
+padding-left: 20px;
+}
+
+.type2-item-3 {
+grid-row: 5;
+grid-column: 1;
+padding-left: 20px;
+}
+
+.type2-title {
+font-family: Kaisei Decol;
+font-size: 67px;
+}
+
+.type2-subtitle {
+font-family: Montserrat;
+font-size: 24px;
+}
+
+.type2-content {
+font-family: Montserrat;
+font-size: 24px;
+color: #000000;
+text-align: left;
+}
+
+.v2 {
+border-left: 6px solid;
+height: 550px;
+}
+
+.href-style {
+text-decoration: none;
+font-size: 24px;
+}
+
+.bottom-grid-container {
+display: grid;
+grid-template-columns: 30% 5% 30% 5% 30%;
+grid-template-rows: 20% 80%;
+gap: 10px;
+padding: 10px;
+}
+
+.v3 {
+border-right: 6px solid;
+color: #000000;
+height: 550px;
+}
+
+.v4 {
+border-left: 6px solid;
+color: #000000;
+height: 550px;
+}
+
+.bottom-item-1 {
+grid-row: 1;
+grid-column: 1;
+}
+
+.bottom-item-2 {
+grid-row: 1;
+grid-column: 2;
+}
+
+.bottom-item-3 {
+grid-row: 1;
+grid-column: 3;
+}
+
+.bottom-item-4 {
+grid-row: 1;
+grid-column: 4;
+}
+
+.bottom-item-5 {
+grid-row: 1;
+grid-column: 5;
+}
+
+.bottom-skills {
+padding-left: 50px;
+padding-right: 50px;
+}
+
+@media only screen and (max-device-width: 500px) {
+.bottom-grid-container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 30% 5% 30% 5% 30%;
+  padding: 10px;
+}
+
+.v3 {
+  border-right: 0px;
+  border-top: 6px solid;
+  color: #000000;
+  width: 550px;
+}
+
+.v4 {
+  border-left: 0px;
+  border-top: 6px solid;
+  color: #000000;
+  width: 550px;
+}
+
+.bottom-item-1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.bottom-item-2 {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.bottom-item-3 {
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.bottom-item-4 {
+  grid-row: 4;
+  grid-column: 1;
+}
+
+.bottom-item-5 {
+  grid-row: 5;
+  grid-column: 1;
+}
+
+.images {
+  width: 100%;
+  height: 50%;
+}
+}
+
+.right {
+height: 100px;
+display: flex;
+align-items: center;
+padding-top: 20px;
+text-align: center;
+}
+
+.menu {
+padding: 25px;
+align-items: right;
+}
+
+.foot {
+height: 400px;
+width: 100%;
+text-align: left;
+}
+
+.skills {
+display: flex;
+padding-top: 20px;
+padding-bottom: 50px;
+text-align: center;
+}
+
+.image_padding {
+height: 80%;
+width: 80%;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.section_title {
+padding-top: 50px;
+padding-bottom: 25px;
+text-align: center;
+}
+
+.sub_section_title {
+padding-top: 50px;
+padding-bottom: 25px;
+text-align: left;
+}
+
+.flexContainer {
+display: flex;
+flex-direction: column;
+}
